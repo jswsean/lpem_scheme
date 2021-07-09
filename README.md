@@ -20,18 +20,15 @@ To install the scheme in Stata, the users can type in the following command:
 ```ruby
 net install cleanplots, from("https://tdmize.github.io/data/cleanplots")
 ```
-2. Download the scheme files in the _scheme_files_ folder, and the supplementary fonts in the _fonts_ folder. 
-Note that the latter is not a requirement; users can still go about creating graphs using their own preferred fonts. 
-3. The downloaded scheme files must be copied into the user's personal ado directory, which can be accessed 
-by typing in the following command in the Stata verbatim: 
+2. Download the scheme files by typing in the following command in the Stata verbatim: 
 ```ruby 
-sysdir
+net install lpem, from("https://jswsean.github.io")
 ```
-4. By typing in the above command, the users would get a list of directories in the users' devices. 
-Copy the downloaded scheme files into the PLUS directory (within the 's' subfolder).
-5. Optional step: the downloaded font files should be installed in the users' font directories. 
-The writer would suggest that the users use "Montserrat Regular 400" or any other fonts within the Montserrat family
-in producing the graphs to enhance the aesthetics of these graphs. To do so, the users can type in the following: 
+3. Optional step: download the supplementary fonts in the _fonts_ folder. 
+The downloaded font files should then be installed in the users' font directories. 
+Note that this step is optional -- users can still go about creating graphs using their own preferred fonts. 
+To enhance the graph's aesthetics, the writer would suggest that the users use "Montserrat Regular 400" 
+or any other fonts within the Montserrat family. To do so, the users can type in the following: 
 ```ruby 
 graph set window fontface "Montserrat Regular 400"
 ```
