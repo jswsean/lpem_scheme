@@ -22,7 +22,7 @@ net install cleanplots, from("https://tdmize.github.io/data/cleanplots")
 ```
 2. Download the scheme files by typing in the following command in the Stata verbatim: 
 ```ruby 
-net install lpem, from("https://jswsean.github.io")
+net install lpem, from("https://jswsean.github.io/schemes")
 ```
 3. Optional step: download the supplementary fonts in the _fonts_ folder. 
 The downloaded font files should then be installed in the users' font directories. 
