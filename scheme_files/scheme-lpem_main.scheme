@@ -6,7 +6,7 @@
 // palettes. 
 
 // AUTHOR		  : Sean Hambali
-// VERSION CONTROL: V.0.0 - Last updated on 9 July 2021
+// VERSION CONTROL: V.0.1 - Last updated on 16 July 2021
 
 #include cleanplots
 
@@ -172,15 +172,15 @@ symbolsize         			medsmall
 symbolsize p       			medsmall
 
 * Default symbol shapes
-symbol p1     				smcircle_hollow
-symbol p2     				smcircle
-symbol p3     				smsquare_hollow
-symbol p4     				smsquare
-symbol p5     				smtriangle_hollow
-symbol p6     				smtriangle
-symbol p7     				smdiamond_hollow
-symbol p8     				smdiamond
-symbol p9     				i
+symbol p1     				smcircle
+symbol p2     				smcircle_hollow
+symbol p3     				smsquare
+symbol p4     				smsquare_hollow
+symbol p5     				smtriangle
+symbol p6     				smtriangle_hollow
+symbol p7     				smdiamond
+symbol p8     				smdiamond_hollow
+symbol p9     				point
 symbol p10    				plus
 symbol p11    				x
 symbol p12    				smcircle
@@ -245,133 +245,126 @@ color mat_label_box 		gs15
 
 * Default for all other non-specified objects
 * NOTE: CIs in marginsplot is based on this
-color p1					"253 183 20"
+color p1					"255 206 36"
 color p2 					"0 0 0"
-color p3 					"255 238 10"
-color p4 					"206 205 205"
-color p5 					"95 88 90"
-color p6 					"255 196 137"
-color p7 					"226 227 191"
-color p8 					"221 167 79"
-color p9 					"167 107 9"
-color p10 					"220 104 6"
-color p11					"252 223 207"
-color p12 					"255 142 30"
-color p13 					"38 118 173"
-color p14 					"255 102 102"
+color p3 					"206 205 205"
+color p4 					"95 88 90"
+color p5 					"255 196 137"
+color p6 					"226 227 191"
+color p7 					"221 167 79"
+color p8 					"167 107 9"
+color p9 					"220 104 6"
+color p10					"252 223 207"
+color p11 					"255 142 30"
+color p12 					"38 118 173"
+color p13 					"255 102 102"
 
 * Default for lines (matching the symbols)
-color p1line				"253 183 20"
+color p1line				"255 206 36"
 color p2line				"0 0 0"
-color p3line				"255 238 10"
-color p4line				"206 205 205"
-color p5line 				"95 88 90"
-color p6line 				"255 196 137"
-color p7line 				"226 227 191"
-color p8line 				"221 167 79"
-color p9line 				"167 107 9"
-color p10line 				"220 104 6"
-color p11line				"252 223 207"
-color p12line				"255 142 30"
-color p13line 				"38 118 173"
-color p14line 				"255 102 102"
+color p3line				"206 205 205"
+color p4line				"95 88 90"
+color p5line				"255 196 137"
+color p6line				"226 227 191"
+color p7line				"221 167 79"
+color p8line				"167 107 9"
+color p9line				"220 104 6"
+color p10line				"252 223 207"
+color p11line				"255 142 30"
+color p12line				"38 118 173"
+color p13line				"255 102 102"
 
-color p1lineplot			"253 183 20"
+color p1lineplot			"255 206 36"
 color p2lineplot			"0 0 0"
-color p3lineplot			"255 238 10"
-color p4lineplot			"206 205 205"
-color p5lineplot 			"95 88 90"
-color p6lineplot			"255 196 137"
-color p7lineplot 			"226 227 191"
-color p8lineplot 			"221 167 79"
-color p9lineplot 			"167 107 9"
-color p10lineplot 			"220 104 6"
-color p11lineplot			"252 223 207"
-color p12lineplot			"255 142 30"
-color p13lineplot			"38 118 173"
-color p14lineplot 			"255 102 102"
+color p3lineplot			"206 205 205"
+color p4lineplot			"95 88 90"
+color p5lineplot			"255 196 137"
+color p6lineplot			"226 227 191"
+color p7lineplot			"221 167 79"
+color p8lineplot			"167 107 9"
+color p9lineplot			"220 104 6"
+color p10lineplot			"252 223 207"
+color p11lineplot			"255 142 30"
+color p12lineplot			"38 118 173"
+color p13lineplot			"255 102 102"
 
-color p1markline			"253 183 20"
+color p1markline			"255 206 36"
 color p2markline			"0 0 0"
-color p3markline			"255 238 10"
-color p4markline			"206 205 205"
-color p5markline 			"95 88 90"
-color p6markline			"255 196 137"
-color p7markline 			"226 227 191"
-color p8markline 			"221 167 79"
-color p9markline 			"167 107 9"
-color p10markline 			"220 104 6"
-color p11markline			"252 223 207"
-color p12markline			"255 142 30"
-color p13markline			"38 118 173"
-color p14markline 			"255 102 102"
+color p3markline			"206 205 205"
+color p4markline			"95 88 90"
+color p5markline			"255 196 137"
+color p6markline			"226 227 191"
+color p7markline			"221 167 79"
+color p8markline			"167 107 9"
+color p9markline			"220 104 6"
+color p10markline			"252 223 207"
+color p11markline			"255 142 30"
+color p12markline			"38 118 173"
+color p13markline			"255 102 102"
 
 * Bar charts
-color p1bar					"253 183 20"
+color p1bar					"255 206 36"
 color p2bar					"0 0 0"
-color p3bar					"255 238 10"
-color p4bar					"206 205 205"
-color p5bar					"95 88 90"
-color p6bar					"255 196 137"
-color p7bar					"226 227 191"
-color p8bar					"221 167 79"
-color p9bar					"167 107 9"
-color p10bar				"220 104 6"
-color p11bar				"252 223 207"
-color p12bar				"255 142 30"
-color p13bar				"38 118 173"
-color p14bar				"255 102 102"
+color p3bar					"206 205 205"
+color p4bar					"95 88 90"
+color p5bar					"255 196 137"
+color p6bar					"226 227 191"
+color p7bar					"221 167 79"
+color p8bar					"167 107 9"
+color p9bar					"220 104 6"
+color p10bar				"252 223 207"
+color p11bar				"255 142 30"
+color p12bar				"38 118 173"
+color p13bar				"255 102 102"
 
 * Confidence Intervals and other rarea plots
 color parea					gs13
 color parealine				gs13
 
 * Area plots
-color p1area				"253 183 20"
+color p1area				"255 206 36"
 color p2area				"0 0 0"
-color p3area				"255 238 10"
-color p4area				"206 205 205"
-color p5area				"95 88 90"
-color p6area				"255 196 137"
-color p7area				"226 227 191"
-color p8area				"221 167 79"
-color p9area				"167 107 9"
-color p10area				"220 104 6"
-color p11area				"252 223 207"
-color p12area				"255 142 30"
-color p13area				"38 118 173"
-color p14area				"255 102 102"
+color p3area				"206 205 205"
+color p4area				"95 88 90"
+color p5area				"255 196 137"
+color p6area				"226 227 191"
+color p7area				"221 167 79"
+color p8area				"167 107 9"
+color p9area				"220 104 6"
+color p10area				"252 223 207"
+color p11area				"255 142 30"
+color p12area				"38 118 173"
+color p13area				"255 102 102"
 
-color p1arealine			"253 183 20"
-color p2arealine			"0 0 0"
-color p3arealine			"255 238 10"
-color p4arealine			"206 205 205"
-color p5arealine			"95 88 90"
-color p6arealine			"255 196 137"
-color p7arealine			"226 227 191"
-color p8arealine			"221 167 79"
-color p9arealine			"167 107 9"
-color p10arealine			"220 104 6"
-color p11arealine			"252 223 207"
-color p12arealine			"255 142 30"
-color p13arealine			"38 118 173"
-color p14arealine			"255 102 102"
+color p1arealine				"255 206 36"
+color p2arealine				"0 0 0"
+color p3arealine				"206 205 205"
+color p4arealine				"95 88 90"
+color p5arealine				"255 196 137"
+color p6arealine				"226 227 191"
+color p7arealine				"221 167 79"
+color p8arealine				"167 107 9"
+color p9arealine				"220 104 6"
+color p10arealine				"252 223 207"
+color p11arealine				"255 142 30"
+color p12arealine				"38 118 173"
+color p13arealine				"255 102 102"
+
 
 * Pie slices
-color p1pie					"253 183 20"
-color p2pie					"0 0 0"
-color p3pie					"255 238 10"
-color p4pie					"206 205 205"
-color p5pie					"95 88 90"
-color p6pie					"255 196 137"
-color p7pie					"226 227 191"
-color p8pie					"221 167 79"
-color p9pie					"167 107 9"
-color p10pie				"220 104 6"
-color p11pie				"252 223 207"
-color p12pie				"255 142 30"
-color p13pie				"38 118 173"
-color p14pie				"255 102 102"
+color p1pie				"255 206 36"
+color p2pie				"0 0 0"
+color p3pie				"206 205 205"
+color p4pie				"95 88 90"
+color p5pie				"255 196 137"
+color p6pie				"226 227 191"
+color p7pie				"221 167 79"
+color p8pie				"167 107 9"
+color p9pie				"220 104 6"
+color p10pie			"252 223 207"
+color p11pie			"255 142 30"
+color p12pie			"38 118 173"
+color p13pie			"255 102 102"
 
 * Fade out bar charts and histograms into lighther palette because
 * so much ink
